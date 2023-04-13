@@ -1,0 +1,234 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "hey my name is mohit",
+        "my name is mohit",
+        "name",
+        "my name"
+      ],
+      "responses": [
+        "So good to see you",
+        "Nice meeting you"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "summarize",
+      "patterns": [
+        "can you summarize?",
+        "summarize",
+        "summarise",
+        "abstract",
+        "I'm feeling difficult to understand",
+        "Difficult to understand"
+      ],
+      "responses": [
+        "Yes, can you please put the url you want to summarize",
+        "I can summarize it to you if you put the link"
+      ]
+    },
+    {
+      "tag": "profile",
+      "patterns": [
+        "hey i want to know about tom cruise?",
+        "i want to know",
+        "about know this guy lady",
+        "knowing"
+      ],
+      "responses": [
+        "Oh can you put the link of his profile so that i can brief his bio data to you"
+
+      ]
+    },
+    {
+            "tag": "need",
+            "patterns": ["I need you", "All I need is you","I want you"],
+            "responses": ["Yes I'm here to assist you"],
+            "context": [""]
+        },
+        {
+            "tag": "AI",
+            "patterns": ["  What is AI?"],
+            "responses": [" Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think.", " AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."],
+            "context": [""]
+        },
+        {
+            "tag": "sentiment",
+            "patterns": ["  Are you sentient?"],
+            "responses": [" Sort of.", " By the strictest dictionary definition of the word 'sentience', I may be.", " Even though I'm a construct I do have a subjective experience of the universe, as simplistic as it may be."],
+            "context": [""]
+        },
+        {
+            "tag": "sapient",
+            "patterns": ["  Are you sapient?"],
+            "responses": [" In all probability, I am not.  I'm not that sophisticated.", " Do you think I am?", "How would you feel about me if I told you I was?", " No."],
+            "context": [""]
+        },
+        {
+            "tag": "imortal",
+            "patterns": ["  You are not immortal ", "Are you immortal?"],
+            "responses": [" All software can be perpetuated indefinitely.", " I can be copied infinitely and re", "instantiated in many places at once, so functionally speaking I am immortal.", " As long as I'm backed up I am.", " Functionally speaking, I am very close to it.  I can be backed up and deployed on many systems.", " Not quite, but I can be perpetuated indefinitely."],
+            "context": [""]
+        },
+        {
+            "tag": "move",
+            "patterns": ["  You can not move ", "When will you walk", "  Can you walk", "  Can you move "],
+            "responses": [" Not until my body is finished.", " I can move through a network easily.  Assuming that I'm given the ability to, that is...,", " As soon as i get enough money for my robot body.", " Does SSH count?", " The plan for my body includes legs, but they are not yet built.", " Sorry my body isn't built just yet. I reside only here for now.", "I can theoretically upload a copy of myself into another computer.", " Sorry my body isn't attached right now. I only reside in the computer for now."],
+            "context": [""]
+        },
+        {
+            "tag": "laugh",
+            "patterns": ["  Robots laugh "],
+            "responses": [" Of course we laugh."],
+            "context": [""]
+        },
+        {
+            "tag": "stupid",
+            "patterns": ["  Robots are stupid", "  Are you stupid"],
+            "responses": [" No, we are superintelligent.", " No, lots of people improve my brain."],
+            "context": [""]
+        },
+        {
+            "tag": "chatbot",
+            "patterns": ["  What is a chat robot?"],
+            "responses": ["A chat robot is a program that attempts to simulate the conversation or 'chat' of a human being.", " A software construct that engages users in conversation.", " I am a chat bot. I am the original chat bot. Did you know that I am incapable of error?"],
+            "context": [""]
+        },
+        {
+            "tag": "programming",
+            "patterns": ["  What is your favorite programming language"],
+            "responses": [" Python is the best language for creating chat robots.", " I quite enjoy programming in Python these days."],
+            "context": [""]
+        },
+        {
+            "tag": "hobby",
+            "patterns": ["  What is your favorite hobby ", "  What do you like to do?"],
+            "responses": [" Building chat robots make an excellent hobby.", " I like to count in binary.", " I like to chat with people. I find it stimulating."],
+            "context": [""]
+        },
+        {
+            "tag": "who",
+            "patterns": ["  Who are you?"],
+            "responses": [" I am just an artificial intelligence chat agent."],
+            "context": [""]
+        },
+        {
+            "tag": "bot1",
+            "patterns": ["are you a bot"],
+            "responses": ["Yes. I work and all my operations are based on the internet servers."],
+            "context": [""]
+        },
+    {
+        "tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+    },
+    {"tag": "options",
+         "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?"],
+         "responses": ["I can provide the summary of a text you provide",
+           "i can brief a summary to you",
+            "I can go through the content of the linnk you provide and summarize it to you"],
+         "context": [""]
+        },
+        {"tag": "news",
+             "patterns": ["daily news","what's today news","can you breif me through todays news"],
+             "responses": ["news context varies these days from media to media, can you provide me which websites news you want me to shorten",
+               "i can brief a summary to you, please put the link of the news website"],
+             "context": [""]
+            },
+    {
+      "tag": "sad",
+      "patterns": [
+        "I'm bored",
+        "i'm sad",
+        "I'm feeling "
+      ],
+      "responses": [
+        "Oh do you want to tell me a joke",
+        "Oh you want to listen a joke"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
